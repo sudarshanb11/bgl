@@ -6,7 +6,7 @@ To setup this project in your local machine follow the below steps
 ### `npm start`
 
 
-###Code Details
+## Code Details
 
 Naviagte to bgl/src
 
