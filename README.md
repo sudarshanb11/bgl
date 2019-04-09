@@ -8,7 +8,7 @@ To setup this project in your local machine follow the below steps
 
 ## Code Details
 
-Naviagte to bgl/src
+Naviagte to `bgl/src`
 
 `/calendar`, `/card`, `/coverExtras`, `/payments`, `/preferences` are five different folder for each component. Each folder has two files, .js file and .scss file 
 which contain presentaion component and it's styles respectively.
