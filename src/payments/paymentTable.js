@@ -1,12 +1,11 @@
 import React from 'react'
-import './paymentTable.scss'
 
 const PaymentTable = () => {
     return (
         <table className='payment-list' cellPadding='0' cellSpacing='0'>
             <thead>
                 <tr>
-                    <th width='122'>Installment</th>
+                    <th width='125'>Installment</th>
                     <th width='85'>Due Date</th>
                     <th width='125'>Method</th>
                     <th width='125'>Status</th>

@@ -14,17 +14,18 @@
         }
         .action {
             display: flex;
-            flex-wrap: wrap;
-            .request {
-                display: flex;
-                align-items: center;
-                max-width: 315px;
-                div {
-                    margin-right: 5px;
-                }
-                img {
-                    width: 18px;
-                }
+            flex-wrap: wrap; 
+        }
+        .request {
+            display: flex;
+            align-items: center;
+            max-width: 315px;
+            padding-left: 30px;
+            div {
+                margin-right: 5px;
+            }
+            img {
+                width: 18px;
             }
         }
     }
@@ -63,6 +64,7 @@
 }
 @media(max-width: 580px) {
     .page {
+        padding: 15px 25px;
         .segment {
             .part-left, .part-right {
                 width: 100%;
@@ -71,6 +73,17 @@
             .part-right {
                 text-align: left;
             }
+        }
+    }
+}
+@media(max-width: 660px) {
+    .page {
+        section {
+            .request {
+                margin-top: 15px;
+                padding-left: 0;
+            }
+            
         }
     }
 }

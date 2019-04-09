@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './calendar.scss'
+import WeekTitle from './weekTitle'
 import moment from 'moment'
 
 class DatePicker extends Component {
@@ -67,15 +68,7 @@ class DatePicker extends Component {
                                 <th colSpan='5'><span className='month'>{monthLabel}</span></th>
                                 <th><i onClick={this.nextMonth} className="fas fa-chevron-right"></i></th>
                             </tr>
-                            <tr className='day-row'>
-                                <th>S</th>
-                                <th>M</th>
-                                <th>T</th>
-                                <th>W</th>
-                                <th>T</th>
-                                <th>F</th>
-                                <th>S</th>
-                            </tr>
+                            <WeekTitle />
                         </thead>
                         <tbody>
                             <Week start={1} 
