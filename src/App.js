@@ -1,26 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Card from './card'
+import CoverExtras from './coverExtras'
+import DatePicker from './calendar'
+import Payments from './payments'
+import Preferences from './preferences'
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      dateValue : ''
+    }
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <div className="app">
+            <input type='text' value={this.state.dateValue} className="form-control" readOnly />
+            <br/>
+            <DatePicker onDateChange={(val) => this.setState({dateValue: val})} activeEnd={60}/>
+            <br/>
+            <Card/>
+            <br />
+            <CoverExtras />
+            <br />
+            <Preferences />
+            <br/>
+            <Payments />
+            <br/>
+        </div>
     );
   }
 }

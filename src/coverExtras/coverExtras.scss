@@ -1,0 +1,29 @@
+.cover {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 338px;
+    max-width: 600px;
+    color: #848484;
+}
+.cover-content {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.cover-item {
+    width: 183px;
+    //height: 246px;
+    text-align: center;
+    padding: 40px 10px;
+    .img-container {
+        height: 76px;
+    }
+    h3 {
+        text-transform: capitalize;
+    }
+    a {
+        color: #3b90dd;
+        font-size: 12px;
+    }
+}

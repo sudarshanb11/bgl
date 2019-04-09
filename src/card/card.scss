@@ -1,0 +1,35 @@
+.card {
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    width: 338px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-media {
+    height: 157px;
+    background-image: url(../assets/images/image-space.jpg);
+}
+.card-profilepic {
+    padding: 15px;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 150px;
+    overflow: hidden;
+    position: relative;
+    bottom: -65px;
+}
+.card-container {
+    text-align: center;
+    padding: 22px 42px;
+    margin-top: 18px;
+    p {
+        color: #848484;
+        margin-bottom: 30px;
+    }
+    .btn {
+        margin-bottom: 12px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

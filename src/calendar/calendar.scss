@@ -1,0 +1,51 @@
+.date-picker {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 338px;
+    .title {
+        color: #fff;
+        background-color: #3b90dd;
+        font-size: 20px;
+        font-weight: 600;
+        height: 70px;
+        padding: 25px;
+    }
+    .content {
+        padding: 15px 10px;
+    }
+    table {
+        th, td div {
+            width: 41px;
+            height: 41px;
+        }
+        th .month {
+            color: #848484;
+        }
+        .day-row {
+            font-size: 12px;
+        }
+        td {
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+            div {
+                border-radius: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &.active {
+                    color: #3b90dd;
+                    font-weight: 700;
+                }
+                &.disabled {
+                    color: #cfd5dc;
+                }
+                &:hover {
+                    background-color: #3b90dd;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

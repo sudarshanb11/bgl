@@ -1,0 +1,8 @@
+.app {
+    padding: 30px;
+}
+@media(max-width: 400px) {
+    .app {
+        padding: 15px;
+    }
+}

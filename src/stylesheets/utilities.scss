@@ -1,0 +1,55 @@
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+//Font size and color
+.headline {
+    font-size: 24px;
+}
+.caption {
+    font-size: 12px;
+}
+.font-bold {
+    font-weight: 700;
+}   
+.font-semibold {
+    font-weight: 600;
+}
+.font-dark {
+    color: #353535;
+}
+.font-blue {
+    color: #3890dd;
+}
+.font-green {
+    color: #26bd7f;
+}   
+.font-gray {
+    color: #848484;
+}
+
+//Text alignment
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+//From component style
+input[type=text] {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    color: #353535;
+    font-size: 14px;
+}

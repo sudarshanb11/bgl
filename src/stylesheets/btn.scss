@@ -1,0 +1,27 @@
+.btn {
+    padding: 12px 25px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.btn-small {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+.btn-block {
+    width: 100%;
+}
+.btn-white {
+    color: #3890dd;
+    background-color: #fff;
+    border-color: #3890dd;
+}
+.btn-blue {
+    color: #fff;
+    background-color: #3890dd;
+    border-color: #3890dd;
+}
